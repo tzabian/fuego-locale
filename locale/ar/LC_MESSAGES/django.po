@@ -1,0 +1,483 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-24 22:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
+
+#: authentication/forms.py:12
+msgid "Email address"
+msgstr ""
+
+#: authentication/forms.py:14 templates/listings/manage_listing.html:370
+msgid "Password"
+msgstr ""
+
+#: authentication/forms.py:18
+msgid "Confirm Email address"
+msgstr ""
+
+#: authentication/forms.py:20 templates/listings/manage_listing.html:385
+msgid "Confirm Password"
+msgstr ""
+
+#: authentication/forms.py:34 listings/tests.py:759
+msgid "This email address already exists."
+msgstr ""
+
+#: authentication/forms.py:50 listings/tests.py:805
+msgid "Emails did not match."
+msgstr ""
+
+#: authentication/forms.py:58 listings/tests.py:851
+msgid "Passwords did not match."
+msgstr ""
+
+#: authentication/views.py:60 listings/views.py:301
+msgid "Please enter the correct Username and Password combination."
+msgstr ""
+
+#: cpanel/filters.py:152 cpanel/tests.py:145
+msgid "Geo IP"
+msgstr ""
+
+#: cpanel/filters.py:153
+msgid "Ad is being placed from outside the chosen country."
+msgstr ""
+
+#: cpanel/filters.py:170 cpanel/tests.py:168
+msgid "Restricted Keywords"
+msgstr ""
+
+#: cpanel/filters.py:171
+msgid "Restricted keywords were found in title or description."
+msgstr ""
+
+#: cpanel/filters.py:197 cpanel/tests.py:190
+msgid "Phone Number"
+msgstr ""
+
+#: cpanel/filters.py:198
+msgid "Incorrect phone number for the current country."
+msgstr ""
+
+#: cpanel/filters.py:214 cpanel/tests.py:212
+msgid "Flagged User"
+msgstr ""
+
+#: cpanel/filters.py:215
+msgid "The user was previously flagged"
+msgstr ""
+
+#: cpanel/filters.py:231 cpanel/tests.py:225
+msgid "New User"
+msgstr ""
+
+#: cpanel/filters.py:232
+msgid "This user is a new user."
+msgstr ""
+
+#: fuego/meta_settings_ar.py:74
+#, python-format
+msgid ""
+"%(ad_title)s - Car Parts & Accessories in %(neighbourhood)s %(city)s | "
+"dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:75 fuego/meta_settings_ar.py:80
+#, python-format
+msgid "%(ad_description)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:76
+#, python-format
+msgid "%(ad_title)s, car accessories, cars for sale in %(city_comma_country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:79
+#, python-format
+msgid ""
+"%(ad_title)s - %(category_leaf)s Cars in %(neighbourhood)s %(city)s | "
+"dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:81
+#, python-format
+msgid ""
+"%(ad_title)s, %(category_leaf)s Cars for Sale in %(city)s, cars for sale "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:88
+#, python-format
+msgid ""
+"Second Hand Vehicles & Used Cars for Sale in %(city_comma_country)s | "
+"dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:89
+#, python-format
+msgid ""
+"Find second hand & used cars for sale directly from owners. Click here to "
+"see photos and prices of cars from %(city_comma_country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:90
+#, python-format
+msgid ""
+"used cars, cars for sale, cars for sale, used cars %(country)s, %(country)s "
+"cars for sale"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:93
+#, python-format
+msgid ""
+"Buy & Sell Car Accessories & Auto Parts in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:94
+#, python-format
+msgid ""
+"Buy & sell new and used car accessories and parts including seat covers, "
+"body kits, engine parts and more in %(city_comma_country)s."
+msgstr ""
+
+#: fuego/meta_settings_ar.py:95
+#, python-format
+msgid ""
+"car parts, auto parts, auto accessories, sale items automobiles to "
+"%(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:98
+#, python-format
+msgid ""
+"%(category_leaf)s Cars for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:99
+#, python-format
+msgid ""
+"Click here to see prices and photos of used %(category_leaf)s cars for sale "
+"in %(city_comma_country)s. Buy directly from owners. No hassles!"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:100
+#, python-format
+msgid ""
+"Cars %(category_leaf)s, Used cars, %(category_leaf)s for sale, "
+"%(category_leaf)s cars for sale in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:103
+#, python-format
+msgid "Careers & Jobs in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:104
+#, python-format
+msgid ""
+"Looking for vacancies and jobs in %(city_or_country)s? Search for job "
+"vacancies updated regularly with dubizzle %(country)s. Send your CV for FREE."
+msgstr ""
+
+#: fuego/meta_settings_ar.py:105
+#, python-format
+msgid ""
+"jobs in %(city_or_country)s, careers in %(city_or_country)s, "
+"%(city_or_country)s job vacancies, recruitment, employment"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:108
+#, python-format
+msgid "Wanted - Careers & Jobs in %(city_or_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:109
+#, python-format
+msgid ""
+"Looking to land a job in %(city_comma_country)s? Post Your skills and "
+"experience on dubizzle %(country)s's Free Job Classifieds."
+msgstr ""
+
+#: fuego/meta_settings_ar.py:110
+#, python-format
+msgid "post job ads in %(country)s, job ads for free, job classified listings"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:113
+#, python-format
+msgid "%(category_leaf)s Jobs in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings_ar.py:114
+#, python-format
+msgid ""
+"Looking for %(category_leaf)s jobs in %(city_comma_country)s? Search for "
+"%(category_leaf)s jobs with dubizzle %(city_or_country)s. Submit your CV for "
+"FREE."
+msgstr ""
+
+#: fuego/meta_settings_ar.py:115
+#, python-format
+msgid ""
+"%(category_leaf)s jobs in %(city_or_country)s, %(category_leaf)s careers in "
+"%(city_or_country)s, %(category_leaf)s job vacancies, %(category_leaf)s "
+"recruitment, %(category_leaf)s employment"
+msgstr ""
+
+#: fuego/settings.py:47
+msgid "English"
+msgstr ""
+
+#: fuego/settings.py:48
+msgid "Arabic"
+msgstr ""
+
+#: fuego/settings.py:239
+msgid "Egypt"
+msgstr ""
+
+#: fuego/settings.py:252
+msgid "Cairo"
+msgstr ""
+
+#: fuego/settings.py:258
+msgid "Alexandria"
+msgstr ""
+
+#: fuego/settings.py:267
+msgid "Giza"
+msgstr ""
+
+#: fuego/settings.py:272
+msgid "Pyramid Corner"
+msgstr ""
+
+#: fuego/settings.py:277
+msgid "Library Lake Towers"
+msgstr ""
+
+#: fuego/settings.py:282
+msgid "Victoria"
+msgstr ""
+
+#: fuego/settings.py:380
+msgid "Studio"
+msgstr ""
+
+#: fuego/settings.py:401 fuego/settings.py:409
+msgid "All of "
+msgstr ""
+
+#: listings/forms.py:26 templates/listings/manage_listing.html:238
+msgid "Choose City"
+msgstr ""
+
+#: listings/forms.py:31 search/forms.py:52 search/forms.py:59
+#: search/forms.py:168 search/forms.py:192 search/forms.py:214
+#: search/forms.py:236 search/forms.py:266
+msgid "Neighbourhood"
+msgstr ""
+
+#: listings/forms.py:38 templates/listings/manage_listing.html:291
+msgid "Mobile Number"
+msgstr ""
+
+#: listings/forms.py:41 templates/listings/manage_listing.html:307
+msgid "Show Mobile Number"
+msgstr ""
+
+#: listings/forms.py:69 templates/listings/manage_listing.html:77
+msgid "Ad Title"
+msgstr ""
+
+#: listings/forms.py:74 templates/listings/manage_listing.html:215
+msgid "Description"
+msgstr ""
+
+#: listings/forms.py:112 listings/views.py:116
+msgid "Please select a valid category."
+msgstr ""
+
+#: listings/forms.py:142 listings/forms.py:147
+msgid "This field is required."
+msgstr ""
+
+#: listings/forms.py:155
+msgid "The neighbourhood you have selected is not in the city you selected."
+msgstr ""
+
+#: listings/forms.py:255 listings/forms.py:280 listings/forms.py:290
+#: search/forms.py:165 search/forms.py:191 search/forms.py:213
+#: search/forms.py:235 search/forms.py:264
+msgid "Price"
+msgstr ""
+
+#: listings/forms.py:262 search/forms.py:166
+msgid "Year"
+msgstr ""
+
+#: listings/forms.py:265 search/forms.py:167
+msgid "Kilometers"
+msgstr ""
+
+#: listings/forms.py:309 listings/forms.py:326
+msgid "Number of Bedrooms"
+msgstr ""
+
+#: search/forms.py:45
+msgid "Keywords"
+msgstr ""
+
+#: search/forms.py:48
+msgid "City"
+msgstr ""
+
+#: search/forms.py:138 search/forms.py:147 search/forms.py:156
+#: search/forms.py:179 search/forms.py:201 search/forms.py:223
+#: search/forms.py:252
+msgid "From"
+msgstr ""
+
+#: search/forms.py:143 search/forms.py:152 search/forms.py:159
+#: search/forms.py:184 search/forms.py:206 search/forms.py:228
+#: search/forms.py:257
+msgid "To"
+msgstr ""
+
+#: search/forms.py:265
+msgid "Bedrooms"
+msgstr ""
+
+#: templates/generic.html:15 templates/generic.html.py:16
+#: templates/generic.html:68 templates/generic.html.py:69
+msgid "Place An Ad"
+msgstr ""
+
+#: templates/authentication/login.html:5
+msgid "Sign in"
+msgstr ""
+
+#: templates/authentication/login.html:6
+msgid "It's faster than saying &#34;Open Sesame&#34;"
+msgstr ""
+
+#: templates/authentication/login.html:18
+msgid "Please fix the errors below"
+msgstr ""
+
+#: templates/authentication/login.html:28
+msgid "Email address:"
+msgstr ""
+
+#: templates/authentication/login.html:43
+msgid "Password:"
+msgstr ""
+
+#: templates/authentication/login.html:59
+msgid "Sign In - show me my stuff"
+msgstr ""
+
+#: templates/authentication/login.html:65
+msgid "Don&#39;t have an account"
+msgstr ""
+
+#: templates/authentication/login.html:66
+msgid "Place an ad</a> to create one"
+msgstr ""
+
+#: templates/authentication/logout.html:6
+msgid "You have been Logged Out!"
+msgstr ""
+
+#: templates/listings/listing_complete.html:5
+msgid "Yay! Mabrook! Your ad will go live soon"
+msgstr ""
+
+#: templates/listings/manage_listing.html:11
+msgid "Place an Ad ..."
+msgstr ""
+
+#: templates/listings/manage_listing.html:12
+msgid "Make sure yourself!!"
+msgstr ""
+
+#: templates/listings/manage_listing.html:34
+#: templates/listings/manage_listing.html:111
+msgid "Choose Category"
+msgstr ""
+
+#: templates/listings/manage_listing.html:92
+#: templates/listings/manage_listing.html:404
+msgid "Quickly explain what you're advertising. Be descriptive yet concise"
+msgstr ""
+
+#: templates/listings/manage_listing.html:119
+msgid "Show all"
+msgstr ""
+
+#: templates/listings/manage_listing.html:146
+#: templates/listings/manage_listing.html:163
+msgid "Category"
+msgstr ""
+
+#: templates/listings/manage_listing.html:260
+msgid "Choose Neighbourhood"
+msgstr ""
+
+#: templates/listings/manage_listing.html:315
+msgid "Email Address"
+msgstr ""
+
+#: templates/listings/manage_listing.html:327
+msgid "Email"
+msgstr ""
+
+#: templates/listings/manage_listing.html:348
+msgid "Confirm Email"
+msgstr ""
+
+#: templates/listings/manage_listing.html:363
+msgid "I'm new to dubizzle. I don't have a password"
+msgstr ""
+
+#: templates/listings/manage_listing.html:366
+msgid "I have a dubizzle password"
+msgstr ""
+
+#: templates/search/browse_widget.html:12
+msgid "All of Dubizzle"
+msgstr ""
+
+#: templates/search/browse_widget.html:46
+msgid "Refine"
+msgstr ""
+
+#: templates/search/category_widget.html:65
+msgid "Go"
+msgstr ""
+
+#: templates/search/search_bar.html:15
+msgid "Show only arabic ads"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:6
+msgid "The user profile page will be displayed here!"
+msgstr ""
