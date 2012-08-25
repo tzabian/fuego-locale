@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-24 22:39+0000\n"
+"POT-Creation-Date: 2012-08-25 22:40+0000\n"
 "PO-Revision-Date: 2012-08-25 23:07+0200\n"
 "Last-Translator: tzabian <tariq@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,6 +89,13 @@ msgstr ""
 
 #: cpanel/filters.py:232
 msgid "This user is a new user."
+msgstr ""
+
+#: fuego/meta_settings_ar.py:59
+#, python-format
+msgid ""
+"Jobs in %(country)s, Property & Real Estate For Sale & Rent, Cars for Sale - "
+"Free Classifieds in %(country)s | dubizzle %(country)s"
 msgstr ""
 
 #: fuego/meta_settings_ar.py:74
@@ -250,39 +257,39 @@ msgstr ""
 msgid "Arabic"
 msgstr ""
 
-#: fuego/settings.py:239
+#: fuego/settings.py:248
 msgid "Egypt"
 msgstr ""
 
-#: fuego/settings.py:252
+#: fuego/settings.py:261
 msgid "Cairo"
 msgstr ""
 
-#: fuego/settings.py:258
+#: fuego/settings.py:267
 msgid "Alexandria"
 msgstr ""
 
-#: fuego/settings.py:267
+#: fuego/settings.py:276
 msgid "Giza"
 msgstr ""
 
-#: fuego/settings.py:272
+#: fuego/settings.py:281
 msgid "Pyramid Corner"
 msgstr ""
 
-#: fuego/settings.py:277
+#: fuego/settings.py:286
 msgid "Library Lake Towers"
 msgstr ""
 
-#: fuego/settings.py:282
+#: fuego/settings.py:291
 msgid "Victoria"
 msgstr ""
 
-#: fuego/settings.py:380
+#: fuego/settings.py:389
 msgid "Studio"
 msgstr ""
 
-#: fuego/settings.py:401 fuego/settings.py:409
+#: fuego/settings.py:410 fuego/settings.py:418
 msgid "All of "
 msgstr ""
 
@@ -290,9 +297,9 @@ msgstr ""
 msgid "Choose City"
 msgstr ""
 
-#: listings/forms.py:31 search/forms.py:52 search/forms.py:59
-#: search/forms.py:168 search/forms.py:192 search/forms.py:214
-#: search/forms.py:236 search/forms.py:266
+#: listings/forms.py:31 search/forms.py:79 search/forms.py:188
+#: search/forms.py:212 search/forms.py:234 search/forms.py:256
+#: search/forms.py:286
 msgid "Neighbourhood"
 msgstr ""
 
@@ -325,16 +332,16 @@ msgid "The neighbourhood you have selected is not in the city you selected."
 msgstr ""
 
 #: listings/forms.py:255 listings/forms.py:280 listings/forms.py:290
-#: search/forms.py:165 search/forms.py:191 search/forms.py:213
-#: search/forms.py:235 search/forms.py:264
+#: search/forms.py:185 search/forms.py:211 search/forms.py:233
+#: search/forms.py:255 search/forms.py:284
 msgid "Price"
 msgstr ""
 
-#: listings/forms.py:262 search/forms.py:166
+#: listings/forms.py:262 search/forms.py:186
 msgid "Year"
 msgstr ""
 
-#: listings/forms.py:265 search/forms.py:167
+#: listings/forms.py:265 search/forms.py:187
 msgid "Kilometers"
 msgstr ""
 
@@ -342,27 +349,27 @@ msgstr ""
 msgid "Number of Bedrooms"
 msgstr ""
 
-#: search/forms.py:45
+#: search/forms.py:46
 msgid "Keywords"
 msgstr ""
 
-#: search/forms.py:48
+#: search/forms.py:49
 msgid "City"
 msgstr ""
 
-#: search/forms.py:138 search/forms.py:147 search/forms.py:156
-#: search/forms.py:179 search/forms.py:201 search/forms.py:223
-#: search/forms.py:252
+#: search/forms.py:158 search/forms.py:167 search/forms.py:176
+#: search/forms.py:199 search/forms.py:221 search/forms.py:243
+#: search/forms.py:272
 msgid "From"
 msgstr ""
 
-#: search/forms.py:143 search/forms.py:152 search/forms.py:159
-#: search/forms.py:184 search/forms.py:206 search/forms.py:228
-#: search/forms.py:257
+#: search/forms.py:163 search/forms.py:172 search/forms.py:179
+#: search/forms.py:204 search/forms.py:226 search/forms.py:248
+#: search/forms.py:277
 msgid "To"
 msgstr ""
 
-#: search/forms.py:265
+#: search/forms.py:285
 msgid "Bedrooms"
 msgstr ""
 
@@ -466,7 +473,7 @@ msgstr ""
 msgid "All of Dubizzle"
 msgstr ""
 
-#: templates/search/browse_widget.html:46
+#: templates/search/browse_widget.html:54
 msgid "Refine"
 msgstr ""
 
