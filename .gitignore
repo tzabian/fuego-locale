@@ -21,7 +21,9 @@ pip-log.txt
 .tox
 
 #Translations
-*.mo
+#*.mo
+*.tmp
+*.translation_index
 
 #Mr Developer
 .mr.developer.cfg
