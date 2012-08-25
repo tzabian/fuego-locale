@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-24 22:39+0000\n"
-"PO-Revision-Date: 2012-08-25 23:01+0200\n"
+"PO-Revision-Date: 2012-08-25 23:04+0200\n"
 "Last-Translator: tzabian <tariq@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: authentication/forms.py:14 templates/listings/manage_listing.html:370
 msgid "Password"
-msgstr "fdsafsadfd"
+msgstr "Nothing here!"
 
 #: authentication/forms.py:18
 msgid "Confirm Email address"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: cpanel/filters.py:152 cpanel/tests.py:145
 msgid "Geo IP"
-msgstr ""
+msgstr "GEOIPPPPP"
 
 #: cpanel/filters.py:153
 msgid "Ad is being placed from outside the chosen country."
