@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-25 22:40+0000\n"
+"POT-Creation-Date: 2012-09-03 06:42+0000\n"
 "PO-Revision-Date: 2012-08-26 00:44+0200\n"
 "Last-Translator: tzabian <tariq@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,76 +19,1063 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: authentication/forms.py:12
+#: authentication/forms.py:17 templates/authentication/login.html:30
 msgid "Email address"
 msgstr "Update here"
 
-#: authentication/forms.py:14 templates/listings/manage_listing.html:370
+#: authentication/forms.py:18 listings/forms.py:27
+msgid "Oh no! Your email is invalid. Try again."
+msgstr ""
+
+#: authentication/forms.py:20 templates/authentication/login.html:45
+#: templates/listings/manage_inorganic_listing.html:43
 msgid "Password"
 msgstr "Nothing password here!"
 
-#: authentication/forms.py:18
+#: authentication/forms.py:29
+msgid "Eeek, the password you entered isn't right. Try again."
+msgstr ""
+
+#: authentication/forms.py:76
 msgid "Confirm Email address"
 msgstr "fsadffsdafdsafdas."
 
-#: authentication/forms.py:20 templates/listings/manage_listing.html:385
+#: authentication/forms.py:78
 msgid "Confirm Password"
 msgstr ""
 
-#: authentication/forms.py:34 listings/tests.py:759
-msgid "This email address already exists."
+#: authentication/forms.py:109 listings/tests.py:828
+msgid "Huh... that's not the same one! Try again."
 msgstr ""
 
-#: authentication/forms.py:50 listings/tests.py:805
-msgid "Emails did not match."
+#: authentication/forms.py:118
+#, python-format
+msgid ""
+"Your password must be a minimum 6 characters can't be %s characters. Try "
+"again."
 msgstr ""
 
-#: authentication/forms.py:58 listings/tests.py:851
-msgid "Passwords did not match."
+#: authentication/forms.py:122 listings/tests.py:874
+msgid "Hmm... this doesn't match up. Try again."
 msgstr ""
 
-#: authentication/views.py:60 listings/views.py:301
+#: authentication/views.py:62
 msgid "Please enter the correct Username and Password combination."
 msgstr ""
 
-#: cpanel/filters.py:152 cpanel/tests.py:145
+#: captcha/fields.py:61 captcha/fields.py:63
+msgid "Error"
+msgstr ""
+
+#: captcha/conf/settings.py:21
+msgid "Please enter the correct letters"
+msgstr ""
+
+#: cpanel/filters.py:151 cpanel/tests.py:155
 msgid "Geo IP"
 msgstr "GEOIPPPPP"
 
-#: cpanel/filters.py:153
+#: cpanel/filters.py:152
 msgid "Ad is being placed from outside the chosen country."
 msgstr ""
 
-#: cpanel/filters.py:170 cpanel/tests.py:168
+#: cpanel/filters.py:169 cpanel/tests.py:178
 msgid "Restricted Keywords"
 msgstr ""
 
-#: cpanel/filters.py:171
+#: cpanel/filters.py:170
 msgid "Restricted keywords were found in title or description."
 msgstr ""
 
-#: cpanel/filters.py:197 cpanel/tests.py:190
+#: cpanel/filters.py:196 cpanel/tests.py:201
+#: templates/emails/listings/reply_to_listing.txt:8
 msgid "Phone Number"
 msgstr ""
 
-#: cpanel/filters.py:198
+#: cpanel/filters.py:197
 msgid "Incorrect phone number for the current country."
 msgstr ""
 
-#: cpanel/filters.py:214 cpanel/tests.py:212
+#: cpanel/filters.py:213 cpanel/tests.py:223
 msgid "Flagged User"
 msgstr ""
 
-#: cpanel/filters.py:215
+#: cpanel/filters.py:214
 msgid "The user was previously flagged"
 msgstr ""
 
-#: cpanel/filters.py:231 cpanel/tests.py:225
+#: cpanel/filters.py:229 cpanel/tests.py:237
 msgid "New User"
 msgstr ""
 
-#: cpanel/filters.py:232
+#: cpanel/filters.py:230
 msgid "This user is a new user."
+msgstr ""
+
+#: cpanel/views.py:113
+msgid ""
+"Edit failed. Your lock on this listing has probably expired. Please try "
+"again."
+msgstr ""
+
+#: fuego/meta_settings.py:61 fuego/meta_settings_ar.py:74
+#, python-format
+msgid ""
+"%(ad_title)s - Car Parts & Accessories in %(neighbourhood)s %(city)s | "
+"dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:62 fuego/meta_settings.py:67
+#: fuego/meta_settings.py:72 fuego/meta_settings.py:77
+#: fuego/meta_settings.py:82 fuego/meta_settings.py:87
+#: fuego/meta_settings.py:92 fuego/meta_settings_ar.py:75
+#: fuego/meta_settings_ar.py:80
+#, python-format
+msgid "%(ad_description)s"
+msgstr ""
+
+#: fuego/meta_settings.py:63 fuego/meta_settings_ar.py:76
+#, python-format
+msgid "%(ad_title)s, car accessories, cars for sale in %(city_comma_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:66 fuego/meta_settings_ar.py:79
+#, python-format
+msgid ""
+"%(ad_title)s - %(category_leaf)s Cars in %(neighbourhood)s %(city)s | "
+"dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:68 fuego/meta_settings_ar.py:81
+#, python-format
+msgid ""
+"%(ad_title)s, %(category_leaf)s Cars for Sale in %(city)s, cars for sale "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:71
+#, python-format
+msgid "%(ad_title)s - %(category_leaf)s Jobs | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:73
+#, python-format
+msgid ""
+"%(ad_title)s, %(category_leaf)s Jobs, %(category_leaf)s Jobs in %(city)s"
+msgstr ""
+
+#: fuego/meta_settings.py:76
+#, python-format
+msgid "%(ad_title)s - %(category_leaf)s Jobs Wanted | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:78
+#, python-format
+msgid ""
+"%(ad_title)s, post %(category_leaf)s Jobs ads, post %(category_leaf)s Jobs "
+"ads in %(city)s"
+msgstr ""
+
+#: fuego/meta_settings.py:81
+#, python-format
+msgid ""
+"%(ad_title)s - %(category_leaf)s property-for-sale | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:83
+#, python-format
+msgid ""
+"%(ad_title)s, %(category_leaf)s property-for-sale, %(category_leaf)s in "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:86
+#, python-format
+msgid ""
+"%(ad_title)s - %(category_leaf)s property-for-rent | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:88
+#, python-format
+msgid ""
+"%(ad_title)s, %(category_leaf)s property-for-rent, %(category_leaf)s in "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:91
+#, python-format
+msgid "%(ad_title)s - %(category_leaf)s items-for-sale | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:93
+#, python-format
+msgid ""
+"%(ad_title)s, %(category_leaf)s items-for-sale, %(category_leaf)s in "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:100 fuego/meta_settings_ar.py:88
+#, python-format
+msgid ""
+"Second Hand Vehicles & Used Cars for Sale in %(city_comma_country)s | "
+"dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:101 fuego/meta_settings_ar.py:89
+#, python-format
+msgid ""
+"Find second hand & used cars for sale directly from owners. Click here to "
+"see photos and prices of cars from %(city_comma_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:102 fuego/meta_settings_ar.py:90
+#, python-format
+msgid ""
+"used cars, cars for sale, cars for sale, used cars %(country)s, %(country)s "
+"cars for sale"
+msgstr ""
+
+#: fuego/meta_settings.py:105
+#, python-format
+msgid ""
+"Buy & Sell Car Accessories & Auto Parts in %(city_or_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:106 fuego/meta_settings_ar.py:94
+#, python-format
+msgid ""
+"Buy & sell new and used car accessories and parts including seat covers, "
+"body kits, engine parts and more in %(city_comma_country)s."
+msgstr ""
+
+#: fuego/meta_settings.py:107 fuego/meta_settings_ar.py:95
+#, python-format
+msgid ""
+"car parts, auto parts, auto accessories, sale items automobiles to "
+"%(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:110 fuego/meta_settings_ar.py:98
+#, python-format
+msgid ""
+"%(category_leaf)s Cars for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:111 fuego/meta_settings_ar.py:99
+#, python-format
+msgid ""
+"Click here to see prices and photos of used %(category_leaf)s cars for sale "
+"in %(city_comma_country)s. Buy directly from owners. No hassles!"
+msgstr ""
+
+#: fuego/meta_settings.py:112 fuego/meta_settings_ar.py:100
+#, python-format
+msgid ""
+"Cars %(category_leaf)s, Used cars, %(category_leaf)s for sale, "
+"%(category_leaf)s cars for sale in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:115 fuego/meta_settings_ar.py:103
+#, python-format
+msgid "Careers & Jobs in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:116 fuego/meta_settings_ar.py:104
+#, python-format
+msgid ""
+"Looking for vacancies and jobs in %(city_or_country)s? Search for job "
+"vacancies updated regularly with dubizzle %(country)s. Send your CV for FREE."
+msgstr ""
+
+#: fuego/meta_settings.py:117 fuego/meta_settings_ar.py:105
+#, python-format
+msgid ""
+"jobs in %(city_or_country)s, careers in %(city_or_country)s, "
+"%(city_or_country)s job vacancies, recruitment, employment"
+msgstr ""
+
+#: fuego/meta_settings.py:120 fuego/meta_settings_ar.py:113
+#, python-format
+msgid "%(category_leaf)s Jobs in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:121
+#, python-format
+msgid ""
+"Looking for %(category_leaf)s jobs in %(city_comma_country)s? Search for "
+"%(category_leaf)s jobs with dubizzle %(city_comma_country)s. Submit your CV "
+"for FREE."
+msgstr ""
+
+#: fuego/meta_settings.py:122 fuego/meta_settings_ar.py:115
+#, python-format
+msgid ""
+"%(category_leaf)s jobs in %(city_or_country)s, %(category_leaf)s careers in "
+"%(city_or_country)s, %(category_leaf)s job vacancies, %(category_leaf)s "
+"recruitment, %(category_leaf)s employment"
+msgstr ""
+"%(category_leaf)s jobs in %(city_or_country)s, %(category_leaf)s careers in "
+"%(city_or_country)s, %(category_leaf)s job vacancies, %(category_leaf)s "
+"recruitment, %(category_leaf)s employment"
+
+#: fuego/meta_settings.py:125
+#, python-format
+msgid ""
+"Wanted - Careers & Jobs in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:126 fuego/meta_settings_ar.py:109
+#, python-format
+msgid ""
+"Looking to land a job in %(city_comma_country)s? Post Your skills and "
+"experience on dubizzle %(country)s's Free Job Classifieds."
+msgstr ""
+
+#: fuego/meta_settings.py:127
+#, python-format
+msgid ""
+"post job ads in %(city_or_country)s, job ads for free, job classified "
+"listings"
+msgstr ""
+
+#: fuego/meta_settings.py:130
+#, python-format
+msgid ""
+"Wanted %(category_leaf)s Jobs in %(city_or_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:131
+#, python-format
+msgid ""
+"Looking to land a %(category_leaf)s job in %(city_comma_country)s ? Post "
+"Your skills and experience on dubizzle [Country]'s Free Job Classifieds."
+msgstr ""
+
+#: fuego/meta_settings.py:132
+#, python-format
+msgid ""
+"post %(category_leaf)s job ads in %(city_or_country)s, %(category_leaf)s job "
+"ads for free, job classified listings"
+msgstr ""
+
+#: fuego/meta_settings.py:135
+#, python-format
+msgid ""
+"Real Estate & Property for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:136
+#, python-format
+msgid ""
+"Buy & sell real estate & properties in %(city_comma_country)s including "
+"apartments, flats, villas, houses and commercial buildings and units."
+msgstr ""
+
+#: fuego/meta_settings.py:137
+#, python-format
+msgid ""
+"Homes for sale in %(city_or_country)s, properties for sale in "
+"%(city_or_country)s, properties to rent, properties for sale in %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:140
+#, python-format
+msgid ""
+"House & Villas For Sale in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:141
+#, python-format
+msgid ""
+"Buy and sell houses and villas in %(city_comma_country)s Search for holiday "
+"villa, luxury villa, city and private villas for sale."
+msgstr ""
+
+#: fuego/meta_settings.py:142
+#, python-format
+msgid ""
+"house for sale, house for sale, houses %(city_or_country)s villas "
+"%(city_or_country)s, villas for sale in %(city_or_country)s, houses for sale "
+"in %(city_or_country)s, sale villas in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:145
+#, python-format
+msgid ""
+"Flats & Apartments for Sale in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:146
+#, python-format
+msgid ""
+"Buy & sell flats apartments in %(city_comma_country)s Search for hotel "
+"apartments, furnished apartments, rental apartments, luxury and studio "
+"apartments."
+msgstr ""
+
+#: fuego/meta_settings.py:147
+#, python-format
+msgid ""
+"apartment for sale, apartment for sale, apartments for %(city_or_country)s, "
+"apartments for sale in %(city_or_country)s, apartments for sale in "
+"%(city_or_country)s, for sale apartments %(city_or_country)s, sale villas in "
+"%(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:150
+#, python-format
+msgid ""
+"Commercial Property for Sale - Offices, Shops & Buildings | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:151
+#, python-format
+msgid ""
+"Buy & sell commercial property in %(city_comma_country)s Search for offices, "
+"shops, buildings, land, and warehouses."
+msgstr ""
+
+#: fuego/meta_settings.py:152
+#, python-format
+msgid ""
+"commercial property for sale, commercial property for sale in "
+"%(city_or_country)s, commercial buildings, commercial property sale, "
+"commercial property for sale %(city_or_country)s, commercial property for "
+"sale %(city_or_country)s, Commercial for sale %(city_or_country)s, good "
+"business for sale %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:155
+#, python-format
+msgid ""
+"Towers & Buildings for Sale in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:156
+#, python-format
+msgid ""
+"Buy & sell full towers and  %(city_comma_country)s buildings. Search for "
+"multiple units, building floors, & other commercial properties in "
+"%(city_comma_country)s."
+msgstr ""
+
+#: fuego/meta_settings.py:157
+#, python-format
+msgid ""
+"Buildings for Sale, levels buildings, %(city_or_country)s Buildings, "
+"Commercial Buildings, Buildings for sale %(city_or_country)s, sale Buildings "
+"%(city_or_country)s, Commercial for sale %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:160
+#, python-format
+msgid "Plots & Land for Sale in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:161
+#, python-format
+msgid ""
+"Buy & sell plots and land in %(city_comma_country)s. Search for land for "
+"sale directly from the owner."
+msgstr ""
+
+#: fuego/meta_settings.py:162
+#, python-format
+msgid ""
+"Land for sale in %(city_or_country)s, land %(city_or_country)s, sale "
+"Buildings %(city_or_country)s, sale land in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:165
+#, python-format
+msgid ""
+"Real Estate & Property for Rent in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:166
+#, python-format
+msgid ""
+"Click here to view listings on real estate & properties for rent in "
+"%(city_comma_country)s - apartments, flats, villas, houses, buildings, and "
+"commercial properties."
+msgstr ""
+
+#: fuego/meta_settings.py:167
+#, python-format
+msgid ""
+"properties in %(city_or_country)s, properties %(city_or_country)s, "
+"properties to rent, property for rent, property for rent in "
+"%(city_or_country)s, property for rent in %(city_or_country)s, properties "
+"for rent in %(city_or_country)s, renting real estate in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:170
+#, python-format
+msgid "Houss & Villas for Ren in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:171
+#, python-format
+msgid ""
+"Click here to view listings of houses and villas for rent in "
+"%(city_comma_country)s - private villas, luxury Villas, holiday villas & "
+"beach villas."
+msgstr ""
+
+#: fuego/meta_settings.py:172
+#, python-format
+msgid ""
+"house for rent, villa for rent, homes in %(city_or_country)s, villas "
+"%(city_or_country)s, villas for rent in %(city_or_country)s, houses for rent "
+"in %(city_or_country)s rental homes villas in %(city_or_country)s, beautiful "
+"houses for rent at %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:175
+#, python-format
+msgid ""
+"Flats & Apartments for Rent in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:176
+#, python-format
+msgid ""
+"Click here to view flats & apartments for rent in %(city_comma_country)s - "
+"furnished apartments, studio apartments, service apartments, and more."
+msgstr ""
+
+#: fuego/meta_settings.py:177
+#, python-format
+msgid ""
+"apartment for rent, apartment for rent, apartments for %(city_or_country)s "
+"apartments for rent in %(city_or_country)s, apartments in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:180
+#, python-format
+msgid ""
+"Commercial Property for Rent - Offices, Shops & Buildings | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:181
+#, python-format
+msgid ""
+"Click here to view commercial properties for rent in %(city_comma_country)s "
+"including buildings, towers, multiple units, warehouses, offices, shops, and "
+"labour camps."
+msgstr ""
+
+#: fuego/meta_settings.py:182
+#, python-format
+msgid ""
+"commercial property to rent, commercial property for rent in "
+"%(city_or_country)s, commercial buildings, commercial property leasing, "
+"commercial property for rent in %(city_or_country)s, rental commercial "
+"properties %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:185
+#, python-format
+msgid ""
+"Room for Rent %(city_comma_country)s - Villas & Apartments | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:186
+#, python-format
+msgid ""
+"Click here to view available rooms for rent in flats, villas, houses, and "
+"apartments in %(city_comma_country)s."
+msgstr ""
+
+#: fuego/meta_settings.py:187
+#, python-format
+msgid ""
+"room for rent in %(city_or_country)s, rooms for rent, room for one person, "
+"double occupancy, rent a room, rent rooms in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:190
+#, python-format
+msgid ""
+"Short Term & Vacation Rentals in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:191
+#, python-format
+msgid ""
+"Find short term & vacation rentals in %(city_comma_country)s including short "
+"term apartments, holiday villas, studio apartments, holiday and hotel "
+"apartments."
+msgstr ""
+
+#: fuego/meta_settings.py:192
+msgid ""
+"Holiday rentals, short stay rental, apartment for short stay, short stay "
+"contract, rent short stay, short stay rental, short stay apartment for rent"
+msgstr ""
+
+#: fuego/meta_settings.py:195
+#, python-format
+msgid ""
+"Wanted - Properties for Rent in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:196
+#, python-format
+msgid ""
+"Looking to rent properties and real estate in %(city_comma_country)s "
+"including apartments, villas, houses, and commercial properties? Post what "
+"you need now on dubizzle %(country)s free classifieds."
+msgstr ""
+
+#: fuego/meta_settings.py:197
+#, python-format
+msgid ""
+"looking to rent short stay, short stay rental, short stay rental ads, short "
+"stay rental, short stay rental ads for the %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:200
+#, python-format
+msgid ""
+"Items for Sale in %(city_comma_country)s - Find, Buy & Sell Anything | "
+"dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:201
+#, python-format
+msgid ""
+"Free classifieds in %(city_comma_country)s  - Find cars for sale, items for "
+"sale, electronics, clothing, furniture, computers, video games, toys & other "
+"items."
+msgstr ""
+
+#: fuego/meta_settings.py:202
+#, python-format
+msgid "ads, free ads, %(country)s classifieds"
+msgstr ""
+
+#: fuego/meta_settings.py:205
+#, python-format
+msgid ""
+"Buy & Sell Baby Clothes & Items in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:206
+#, python-format
+msgid ""
+"Find new and used baby items including clothes, toys, car seats, feeding "
+"bottles, and nursery furniture in %(city_comma_country)s. Click here to see "
+"prices and pictures."
+msgstr ""
+
+#: fuego/meta_settings.py:207
+#, python-format
+msgid ""
+"baby items, clothing, toys, car seats, bottles, nursery furniture in "
+"%(city_or_country)s, in %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:210
+#, python-format
+msgid ""
+"Yachts & Boats for sale in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:211
+#, python-format
+msgid ""
+"Buy or sell a wide range of new and used boats and yachts from direct "
+"owners, dealers, and brokers in %(city_comma_country)s. Click here to see "
+"prices and photos."
+msgstr ""
+
+#: fuego/meta_settings.py:212
+#, python-format
+msgid ""
+"boats for sale, yachts for sale, fishing boat, boats, boats for sale, boats "
+"in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:215
+#, python-format
+msgid ""
+"Buy & Sell New & Used Books in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:216
+#, python-format
+msgid ""
+"Buy & sell new and used books including audio books, e-books, fiction & non-"
+"fiction books, and texbooks in %(city_comma_country)s. Click here to see "
+"prices and photos."
+msgstr ""
+
+#: fuego/meta_settings.py:217
+#, python-format
+msgid ""
+"selling books, e-books, textbooks, bestsellers, new and used books for sale "
+"in %(city_or_country)s, selling books %(city_or_country)s, textbooks for "
+"sale in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:220
+#, python-format
+msgid ""
+"Business & Industrial Equipment for Sale in %(city_comma_country)s | "
+"dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:221
+#, python-format
+msgid ""
+"Buy & sell business & industrial equipment including heavy equipment, "
+"agricultural supplies, and manufacturing equipment in "
+"%(city_comma_country)s. Click here to see prices and details."
+msgstr ""
+
+#: fuego/meta_settings.py:222
+msgid ""
+"Industrial Equipment, Professional Equipment, Heavy Equipment, agricultural "
+"equipment, and manufacturing equipment, equipment for sale"
+msgstr ""
+
+#: fuego/meta_settings.py:225
+#, python-format
+msgid ""
+"Camcorders & Cameras for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:226
+#, python-format
+msgid ""
+"Buy & sell used cameras, digital cameras, dslr cameras camcorders, "
+"binoculars, and camera accessories in %(city_comma_country)s. Click here to "
+"see prices and photos."
+msgstr ""
+
+#: fuego/meta_settings.py:227
+msgid ""
+"Cameras for sale, camcorders, digital cameras, cameras, nikon, canon, fuji"
+msgstr ""
+
+#: fuego/meta_settings.py:230
+#, python-format
+msgid ""
+"Accessories, Clothes & Dresses for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:231
+#, python-format
+msgid ""
+"Buy & sell clothing & accessories including dresses, sunglasses, jewelry, "
+"handbags, shoes, perfumes and apparel in %(city_comma_country)s. Click here "
+"to see prices and photos."
+msgstr ""
+
+#: fuego/meta_settings.py:232
+msgid ""
+"dresses for sale, clothing, accessories, fashion, men's clothing, women's "
+"clothing"
+msgstr ""
+
+#: fuego/meta_settings.py:235
+#, python-format
+msgid ""
+"Laptops, Tablets & Computers for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:236
+#, python-format
+msgid ""
+"Buy & sell computers, pc, laptops, tablets, ipads, printers, monitors, hard "
+"drives and other computer accessories in %(city_comma_country)s. Click here "
+"to see prices and photos."
+msgstr ""
+
+#: fuego/meta_settings.py:237
+msgid "laptops for sale, computer, computers, ipad, mac, printers"
+msgstr ""
+
+#: fuego/meta_settings.py:240
+#, python-format
+msgid ""
+"Home Appliances & Electronics for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:241
+#, python-format
+msgid ""
+"Discover great deals on used electronics, gadgets, tv's, refrigerators, home "
+"theatres, and other home appliances in %(city_comma_country)s. Click here to "
+"view prices and pictures."
+msgstr ""
+
+#: fuego/meta_settings.py:242
+#, python-format
+msgid ""
+"Electronics devices, electronic selling, televisions, home theater speakers, "
+"washing machine, refrigerator, home theater, best deals on electrical "
+"appliances in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:245
+#, python-format
+msgid ""
+"Garden & Home Furniture for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:246
+#, python-format
+msgid ""
+"Find brand new and used home and garden furniture in %(city_comma_country)s "
+"including sofas, chairs, dining tables, beds and other furniture. Click here "
+"to see prices and photos."
+msgstr ""
+
+#: fuego/meta_settings.py:247
+#, python-format
+msgid ""
+"furniture for sale, home, garden, bed, tables, sofa, wardrobe, lounge, "
+"garden furniture and sell houses in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:250
+#, python-format
+msgid ""
+"Jewelry & Watches for Sale in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:251
+msgid ""
+"Buy & sell a wide range of jewelry and watches including earrings, "
+"necklaces, rings, men's and women's watches. Click here to see prices and "
+"photos."
+msgstr ""
+
+#: fuego/meta_settings.py:252
+#, python-format
+msgid ""
+"watches for sale, jewelry, rings, watches for men, watches for women, "
+"necklaces, diamonds, jewelry in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:255
+#, python-format
+msgid ""
+"Motorcycle & Bikes for Sale in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:256
+#, python-format
+msgid ""
+"Buy & Sell motorcycles and bikes in %(city_comma_country)s. Find photos and "
+"prices of new and second hand motorcycles and bikes from direct owners."
+msgstr ""
+
+#: fuego/meta_settings.py:257
+#, python-format
+msgid ""
+"bikes for sale, motorcycles for sale, honda, suzuzki, harley, kawasaki, "
+"bikes, bmx, bikes, motorcycles for sale in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:260
+#, python-format
+msgid ""
+"Mobile Phones, PDA's & iPhones for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:261
+#, python-format
+msgid ""
+"Buy & sell a wide range of mobile phones, pda's and iphones including mobile "
+"phone accessories in %(city_comma_country)s. Click here to see prices and "
+"photos."
+msgstr ""
+
+#: fuego/meta_settings.py:262
+msgid ""
+"iphone for sale, mobile phones, cell phone, smart phone, pda, android "
+"phones, handheld, samsung, nokia"
+msgstr ""
+
+#: fuego/meta_settings.py:265
+#, python-format
+msgid ""
+"Music & DVD Movies for Sale in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:266
+#, python-format
+msgid ""
+"Buy & sell dvd, blu ray, and high definition movies, cd's, mp3 music, and "
+"vinyls in %(city_comma_country)s. Click here to see prices and details."
+msgstr ""
+
+#: fuego/meta_settings.py:267
+msgid "dvd for sale, cd's, mp3 music"
+msgstr ""
+
+#: fuego/meta_settings.py:270
+#, python-format
+msgid ""
+"Musical Instruments for Sale in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:271
+#, python-format
+msgid ""
+"Buy & sell new and used musical instruments including pianos, guitars, "
+"violins, flute, drums and other instruments in %(city_comma_country)s. Click "
+"here to see prices and photos."
+msgstr ""
+
+#: fuego/meta_settings.py:272
+#, python-format
+msgid ""
+"Musical Instruments for sale, guitars, violins, drums, speakers, musical "
+"instruments sales in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:275
+#, python-format
+msgid "Animals & Pets in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:276
+#, python-format
+msgid ""
+"Want to buy or adopt pets in %(city_comma_country)s Find dogs, puppies, "
+"cats, kittens, and birds today."
+msgstr ""
+
+#: fuego/meta_settings.py:277
+msgid "pets, dogs, cats, puppies, kittens, pets, pet adoption"
+msgstr ""
+
+#: fuego/meta_settings.py:280
+#, python-format
+msgid ""
+"Sports & Gym Equipment for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:281
+#, python-format
+msgid ""
+"Buy & sell new and used sports & gym equipment including treadmills, "
+"dumbbells, cross trainers, camping equipment, and sports apparel in  "
+"%(city_comma_country)s . Click here to see prices and photos."
+msgstr ""
+
+#: fuego/meta_settings.py:282
+msgid "Gym equipment, treadmill, sports, fitness, weight, weights"
+msgstr ""
+
+#: fuego/meta_settings.py:285
+#, python-format
+msgid ""
+"Vouchers, Concert & Airline Tickets for Sale in %(city_comma_country)s | "
+"dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:286
+#, python-format
+msgid ""
+"Buy & sell tickets & vouchers including airline tickets, concert tickets, "
+"and tickets to movies, and other events in %(city_comma_country)s. Click "
+"here to see prices and details."
+msgstr ""
+
+#: fuego/meta_settings.py:287
+#, python-format
+msgid ""
+"concert tickets, vouchersfor sale, Events and Tickets, Concert tickets for "
+"sale in %(city_or_country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:290
+#, python-format
+msgid ""
+"Collectibles & Toys for Sale in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:291
+#, python-format
+msgid ""
+"Buy & sell new and used collectibles and toys including action figures, "
+"stuffed animals, educational toys, puzzles, and more in "
+"%(city_comma_country)s. Click here to see prices and photos."
+msgstr ""
+
+#: fuego/meta_settings.py:292
+msgid "Toys for sale, collectibles, gifts, collectibles, antiques"
+msgstr ""
+
+#: fuego/meta_settings.py:295
+#, python-format
+msgid ""
+"Game Consoles & Video Games for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:296
+#, python-format
+msgid ""
+"Buy & sell video games, game consoles, and game accessories in "
+"%(city_comma_country)s including PS3, Xbox 360, Nintendo, PSP's, Game Boys "
+"and more. Click here to see photos and prices."
+msgstr ""
+
+#: fuego/meta_settings.py:297
+msgid "video games, xbox 360, playstation, ps3, psp, nintendo, pc games"
+msgstr ""
+
+#: fuego/meta_settings.py:300
+#, python-format
+msgid "Items Wanted in %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:301
+#, python-format
+msgid "List your wanted items & stuff for free on dubizzle %(country)s."
+msgstr ""
+
+#: fuego/meta_settings.py:302
+msgid "Items wanted, looking for"
+msgstr ""
+
+#: fuego/meta_settings.py:305
+#, python-format
+msgid "Other Items for Sale in  %(city_comma_country)s | dubizzle %(country)s"
+msgstr ""
+
+#: fuego/meta_settings.py:306
+#, python-format
+msgid ""
+"Buy & sell any other items. List your ads for free on dubizzle %(country)s."
+msgstr ""
+
+#: fuego/meta_settings.py:307
+#, python-format
+msgid ""
+"Other items, items for sale, Other Items for Sale in %(city_or_country)s"
 msgstr ""
 
 #: fuego/meta_settings_ar.py:59
@@ -98,58 +1085,6 @@ msgid ""
 "Free Classifieds in %(country)s | dubizzle %(country)s"
 msgstr ""
 
-#: fuego/meta_settings_ar.py:74
-#, python-format
-msgid ""
-"%(ad_title)s - Car Parts & Accessories in %(neighbourhood)s %(city)s | "
-"dubizzle %(country)s"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:75 fuego/meta_settings_ar.py:80
-#, python-format
-msgid "%(ad_description)s"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:76
-#, python-format
-msgid "%(ad_title)s, car accessories, cars for sale in %(city_comma_country)s"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:79
-#, python-format
-msgid ""
-"%(ad_title)s - %(category_leaf)s Cars in %(neighbourhood)s %(city)s | "
-"dubizzle %(country)s"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:81
-#, python-format
-msgid ""
-"%(ad_title)s, %(category_leaf)s Cars for Sale in %(city)s, cars for sale "
-"%(country)s"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:88
-#, python-format
-msgid ""
-"Second Hand Vehicles & Used Cars for Sale in %(city_comma_country)s | "
-"dubizzle %(country)s"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:89
-#, python-format
-msgid ""
-"Find second hand & used cars for sale directly from owners. Click here to "
-"see photos and prices of cars from %(city_comma_country)s"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:90
-#, python-format
-msgid ""
-"used cars, cars for sale, cars for sale, used cars %(country)s, %(country)s "
-"cars for sale"
-msgstr ""
-
 #: fuego/meta_settings_ar.py:93
 #, python-format
 msgid ""
@@ -157,80 +1092,14 @@ msgid ""
 "%(country)s"
 msgstr ""
 
-#: fuego/meta_settings_ar.py:94
-#, python-format
-msgid ""
-"Buy & sell new and used car accessories and parts including seat covers, "
-"body kits, engine parts and more in %(city_comma_country)s."
-msgstr ""
-
-#: fuego/meta_settings_ar.py:95
-#, python-format
-msgid ""
-"car parts, auto parts, auto accessories, sale items automobiles to "
-"%(city_or_country)s"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:98
-#, python-format
-msgid ""
-"%(category_leaf)s Cars for Sale in %(city_comma_country)s | dubizzle "
-"%(country)s"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:99
-#, python-format
-msgid ""
-"Click here to see prices and photos of used %(category_leaf)s cars for sale "
-"in %(city_comma_country)s. Buy directly from owners. No hassles!"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:100
-#, python-format
-msgid ""
-"Cars %(category_leaf)s, Used cars, %(category_leaf)s for sale, "
-"%(category_leaf)s cars for sale in %(city_or_country)s"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:103
-#, python-format
-msgid "Careers & Jobs in %(city_comma_country)s | dubizzle %(country)s"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:104
-#, python-format
-msgid ""
-"Looking for vacancies and jobs in %(city_or_country)s? Search for job "
-"vacancies updated regularly with dubizzle %(country)s. Send your CV for FREE."
-msgstr ""
-
-#: fuego/meta_settings_ar.py:105
-#, python-format
-msgid ""
-"jobs in %(city_or_country)s, careers in %(city_or_country)s, "
-"%(city_or_country)s job vacancies, recruitment, employment"
-msgstr ""
-
 #: fuego/meta_settings_ar.py:108
 #, python-format
 msgid "Wanted - Careers & Jobs in %(city_or_country)s | dubizzle %(country)s"
 msgstr ""
 
-#: fuego/meta_settings_ar.py:109
-#, python-format
-msgid ""
-"Looking to land a job in %(city_comma_country)s? Post Your skills and "
-"experience on dubizzle %(country)s's Free Job Classifieds."
-msgstr ""
-
 #: fuego/meta_settings_ar.py:110
 #, python-format
 msgid "post job ads in %(country)s, job ads for free, job classified listings"
-msgstr ""
-
-#: fuego/meta_settings_ar.py:113
-#, python-format
-msgid "%(category_leaf)s Jobs in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
 
 #: fuego/meta_settings_ar.py:114
@@ -241,144 +1110,434 @@ msgid ""
 "FREE."
 msgstr ""
 
-#: fuego/meta_settings_ar.py:115
-#, python-format
-msgid ""
-"%(category_leaf)s jobs in %(city_or_country)s, %(category_leaf)s careers in "
-"%(city_or_country)s, %(category_leaf)s job vacancies, %(category_leaf)s "
-"recruitment, %(category_leaf)s employment"
+#: fuego/settings.py:255
+msgid "Bahrain"
 msgstr ""
-"%(category_leaf)s jobs in %(city_or_country)s, %(category_leaf)s careers in "
-"%(city_or_country)s, %(category_leaf)s job vacancies, %(category_leaf)s "
-"recruitment, %(category_leaf)s employment"
 
-#: fuego/settings.py:47
+#: fuego/settings.py:257
+msgid "BHD"
+msgstr ""
+
+#: fuego/settings.py:271 fuego/settings.py:288
+msgid "Manama"
+msgstr ""
+
+#: fuego/settings.py:293
+msgid "Adliya"
+msgstr ""
+
+#: fuego/settings.py:298
+msgid "Mahooz"
+msgstr ""
+
+#: fuego/settings.py:303
+msgid "Umm Alhassam"
+msgstr ""
+
+#: fuego/settings.py:308
+msgid "Juffair"
+msgstr ""
+
+#: fuego/settings.py:313
+msgid "Zinj"
+msgstr ""
+
+#: fuego/settings.py:318
+msgid "Bilad Al Qadeem"
+msgstr ""
+
+#: fuego/settings.py:323
+msgid "Salmabad"
+msgstr ""
+
+#: fuego/settings.py:328
+msgid "Seef"
+msgstr ""
+
+#: fuego/settings.py:333
+msgid "Barbar"
+msgstr ""
+
+#: fuego/settings.py:338
+msgid "Budaiya"
+msgstr ""
+
+#: fuego/settings.py:343
+msgid "Janabiyah"
+msgstr ""
+
+#: fuego/settings.py:348
+msgid "Saar"
+msgstr ""
+
+#: fuego/settings.py:353
+msgid "Bani Jamra"
+msgstr ""
+
+#: fuego/settings.py:358
+msgid "Sanabis"
+msgstr ""
+
+#: fuego/settings.py:363
+msgid "Burhama"
+msgstr ""
+
+#: fuego/settings.py:368
+msgid "Jidhafs"
+msgstr ""
+
+#: fuego/settings.py:373
+msgid "Salihiya"
+msgstr ""
+
+#: fuego/settings.py:378
+msgid "Gudaibiya"
+msgstr ""
+
+#: fuego/settings.py:383
+msgid "Hoora"
+msgstr ""
+
+#: fuego/settings.py:388
+msgid "Ras Rumman"
+msgstr ""
+
+#: fuego/settings.py:393
+msgid "Manama Souk"
+msgstr ""
+
+#: fuego/settings.py:398
+msgid "A'Ali"
+msgstr ""
+
+#: fuego/settings.py:403
+msgid "Sanad"
+msgstr ""
+
+#: fuego/settings.py:408
+msgid "Awali"
+msgstr ""
+
+#: fuego/settings.py:413
+msgid "Dumistan"
+msgstr ""
+
+#: fuego/settings.py:418
+msgid "Busaytin"
+msgstr ""
+
+#: fuego/settings.py:423
+msgid "Amwaj Island"
+msgstr ""
+
+#: fuego/settings.py:428
+msgid "Jid Ali"
+msgstr ""
+
+#: fuego/settings.py:433
+msgid "Bu Kawarah"
+msgstr ""
+
+#: fuego/settings.py:438
+msgid "Abu Baham"
+msgstr ""
+
+#: fuego/settings.py:443
+msgid "Al Musalla"
+msgstr ""
+
+#: fuego/settings.py:448
+msgid "Awadhiya"
+msgstr ""
+
+#: fuego/settings.py:453
+msgid "Bu Ashira"
+msgstr ""
+
+#: fuego/settings.py:458
+msgid "Fereej Al Fadhel"
+msgstr ""
+
+#: fuego/settings.py:463
+msgid "Ghuraifa"
+msgstr ""
+
+#: fuego/settings.py:468
+msgid "Gufool"
+msgstr ""
+
+#: fuego/settings.py:473
+msgid "Khamis"
+msgstr ""
+
+#: fuego/settings.py:478
+msgid "Naim"
+msgstr ""
+
+#: fuego/settings.py:483
+msgid "South Sehla"
+msgstr ""
+
+#: fuego/settings.py:488
+msgid "Tashan"
+msgstr ""
+
+#: fuego/settings.py:493
+msgid "Tubli"
+msgstr ""
+
+#: fuego/settings.py:519
 msgid "English"
 msgstr ""
 
-#: fuego/settings.py:48
+#: fuego/settings.py:520
 msgid "Arabic"
 msgstr ""
 
-#: fuego/settings.py:248
-msgid "Egypt"
+#: fuego/settings.py:567 templates/search/browse_widget.html:12
+#: templates/search/widget.html:27 templates/search/widget.html.py:44
+msgid "All of Dubizzle"
 msgstr ""
 
-#: fuego/settings.py:261
-msgid "Cairo"
+#: fuego/settings.py:580
+msgid "Inorganic"
 msgstr ""
 
-#: fuego/settings.py:267
-msgid "Alexandria"
+#: fuego/settings.py:581
+msgid "Payed Organic"
 msgstr ""
 
-#: fuego/settings.py:276
-msgid "Giza"
+#: fuego/settings.py:582
+msgid "Free Orgainic"
 msgstr ""
 
-#: fuego/settings.py:281
-msgid "Pyramid Corner"
+#: fuego/settings.py:654
+msgid "Active"
 msgstr ""
 
-#: fuego/settings.py:286
-msgid "Library Lake Towers"
+#: fuego/settings.py:655
+msgid "Deactive"
 msgstr ""
 
-#: fuego/settings.py:291
-msgid "Victoria"
+#: fuego/settings.py:656
+msgid "Blocked"
 msgstr ""
 
-#: fuego/settings.py:389
+#: fuego/settings.py:657
+msgid "Suspended"
+msgstr ""
+
+#: fuego/settings.py:690
 msgid "Studio"
 msgstr ""
 
-#: fuego/settings.py:410 fuego/settings.py:418
+#: fuego/settings.py:711 fuego/settings.py:719
 msgid "All of "
 msgstr ""
 
-#: listings/forms.py:26 templates/listings/manage_listing.html:238
+#: fuego/settings.py:855
+msgid ""
+"Jobs in Bahrain, Property & Real Estate For Sale & Rent, Cars for Sale - "
+"Free Classifieds in Bahrain | dubizzle Bahrain"
+msgstr ""
+
+#: fuego/settings.py:858
+msgid ""
+"dubizzle is your free and friendly local classifieds website in Bahrain. "
+"Jobs, property, real estate, cars and classifieds in Bahrain. Post an ad, "
+"browse ads, buy, sell or rent."
+msgstr ""
+
+#: fuego/settings.py:862
+msgid ""
+"dubizzle Bahrain, free classifieds, online classifieds, Bahrain classifieds, "
+"free classifieds in Bahrain"
+msgstr ""
+
+#: fuego/settings.py:886
+msgid "[dubizzle] - Somebody is interested in a listing you posted"
+msgstr ""
+
+#: fuego/settings.py:887
+msgid "[dubizzle] - Your listing will go live soon"
+msgstr ""
+
+#: fuego/settings.py:888
+msgid "[dubizzle] - Welcome to Dubizzle, your listing will live soon"
+msgstr ""
+
+#: fuego/settings.py:889
+msgid "[dubizzle] - Congratulations! Your listing is live now."
+msgstr ""
+
+#: fuego/settings.py:890
+msgid "[dubizzle] - Your listing has been updated"
+msgstr ""
+
+#: listings/forms.py:48
+msgid "Enter your name please, nobody likes to talk to a stranger ;)"
+msgstr ""
+
+#: listings/forms.py:52
+msgid ""
+"Don't be shy...if you have any questions about the ad, now is the time to "
+"ask."
+msgstr ""
+
+#: listings/forms.py:78
 msgid "Choose City"
 msgstr ""
 
-#: listings/forms.py:31 search/forms.py:79 search/forms.py:188
-#: search/forms.py:212 search/forms.py:234 search/forms.py:256
-#: search/forms.py:286
+#: listings/forms.py:83 listings/models.py:103 listings/models.py:238
+#: listings/models.py:262 listings/models.py:282 listings/models.py:299
+#: listings/models.py:316 listings/models.py:342 listings/models.py:360
+#: listings/models.py:386 search/forms.py:127 search/forms.py:236
+#: search/forms.py:260 search/forms.py:282 search/forms.py:304
+#: search/forms.py:334
 msgid "Neighbourhood"
 msgstr ""
 
-#: listings/forms.py:38 templates/listings/manage_listing.html:291
-msgid "Mobile Number"
+#: listings/forms.py:90
+msgid "Mobile number"
 msgstr ""
 
-#: listings/forms.py:41 templates/listings/manage_listing.html:307
-msgid "Show Mobile Number"
+#: listings/forms.py:93 templates/listings/manage_listing.html:334
+msgid "Show this number on my ad"
 msgstr ""
 
-#: listings/forms.py:69 templates/listings/manage_listing.html:77
+#: listings/forms.py:121
 msgid "Ad Title"
 msgstr ""
 
-#: listings/forms.py:74 templates/listings/manage_listing.html:215
+#: listings/forms.py:126 templates/listings/get_listing.html:81
+#: templates/listings/manage_listing.html:226
 msgid "Description"
 msgstr ""
 
-#: listings/forms.py:112 listings/views.py:116
+#: listings/forms.py:164 listings/views.py:133
 msgid "Please select a valid category."
 msgstr ""
 
-#: listings/forms.py:142 listings/forms.py:147
-msgid "This field is required."
+#: listings/forms.py:193
+msgid "We need your mobile number for verification."
 msgstr ""
 
-#: listings/forms.py:155
+#: listings/forms.py:198
+msgid "Hey, you forgot to tell us where you are."
+msgstr ""
+
+#: listings/forms.py:203
+msgid "We need you to be a little more specific."
+msgstr ""
+
+#: listings/forms.py:210
+msgid "You're going to need a title."
+msgstr ""
+
+#: listings/forms.py:215
+msgid "You forgot to add a description. Go on, tell the world about your ad."
+msgstr ""
+
+#: listings/forms.py:223
 msgid "The neighbourhood you have selected is not in the city you selected."
 msgstr ""
 
-#: listings/forms.py:255 listings/forms.py:280 listings/forms.py:290
-#: search/forms.py:185 search/forms.py:211 search/forms.py:233
-#: search/forms.py:255 search/forms.py:284
+#: listings/forms.py:323 listings/forms.py:384 listings/forms.py:409
+#: listings/models.py:239 listings/models.py:263 listings/models.py:283
+#: listings/models.py:300 listings/models.py:317 listings/models.py:344
+#: listings/models.py:361 listings/models.py:388 search/forms.py:233
+#: search/forms.py:259 search/forms.py:281 search/forms.py:303
+#: search/forms.py:332
 msgid "Price"
 msgstr ""
 
-#: listings/forms.py:262 search/forms.py:186
+#: listings/forms.py:334 listings/forms.py:395 listings/forms.py:420
+msgid "You forgot to add the price."
+msgstr ""
+
+#: listings/forms.py:345 listings/models.py:260 search/forms.py:234
 msgid "Year"
 msgstr ""
 
-#: listings/forms.py:265 search/forms.py:187
+#: listings/forms.py:348
+msgid "How many KM?"
+msgstr ""
+
+#: listings/forms.py:360
+msgid "Sweet wheels, but how old?"
+msgstr ""
+
+#: listings/forms.py:365
+msgid "Great ride, how far has it gone?"
+msgstr ""
+
+#: listings/forms.py:443 listings/forms.py:475
+msgid "Number of bedrooms"
+msgstr ""
+
+#: listings/forms.py:454 listings/forms.py:486
+msgid "Nice property, but how many bedrooms?"
+msgstr ""
+
+#: listings/models.py:102
+msgid "Posted On"
+msgstr ""
+
+#: listings/models.py:193
+msgid "Listing has not yet been created"
+msgstr ""
+
+#: listings/models.py:237 listings/models.py:259 listings/models.py:281
+#: listings/models.py:298 listings/models.py:315 listings/models.py:341
+#: listings/models.py:359 listings/models.py:385
+msgid "Posted on"
+msgstr ""
+
+#: listings/models.py:261 search/forms.py:235
 msgid "Kilometers"
 msgstr ""
 
-#: listings/forms.py:309 listings/forms.py:326
-msgid "Number of Bedrooms"
-msgstr ""
-
-#: search/forms.py:46
-msgid "Keywords"
-msgstr ""
-
-#: search/forms.py:49
-msgid "City"
-msgstr ""
-
-#: search/forms.py:158 search/forms.py:167 search/forms.py:176
-#: search/forms.py:199 search/forms.py:221 search/forms.py:243
-#: search/forms.py:272
-msgid "From"
-msgstr ""
-
-#: search/forms.py:163 search/forms.py:172 search/forms.py:179
-#: search/forms.py:204 search/forms.py:226 search/forms.py:248
-#: search/forms.py:277
-msgid "To"
-msgstr ""
-
-#: search/forms.py:285
+#: listings/models.py:343 listings/models.py:387 search/forms.py:333
 msgid "Bedrooms"
 msgstr ""
 
-#: templates/generic.html:15 templates/generic.html.py:16
-#: templates/generic.html:68 templates/generic.html.py:69
+#: listings/tests.py:782
+msgid ""
+"This email address is already in use. Click 'I have a dubizzle password', or "
+"use a different email."
+msgstr ""
+
+#: search/forms.py:94
+msgid "Keywords"
+msgstr ""
+
+#: search/forms.py:97
+msgid "City"
+msgstr ""
+
+#: search/forms.py:206 search/forms.py:215 search/forms.py:224
+#: search/forms.py:247 search/forms.py:269 search/forms.py:291
+#: search/forms.py:320 templates/emails/listings/reply_to_listing.txt:6
+msgid "From"
+msgstr ""
+
+#: search/forms.py:211 search/forms.py:220 search/forms.py:227
+#: search/forms.py:252 search/forms.py:274 search/forms.py:296
+#: search/forms.py:325
+msgid "To"
+msgstr ""
+
+#: templates/generic.html:16
+msgid "home"
+msgstr ""
+
+#: templates/generic.html:18 templates/generic.html.py:19
+#: templates/generic.html:78 templates/generic.html.py:79
 msgid "Place An Ad"
+msgstr ""
+
+#: templates/generic.html:24
+msgid "Account"
 msgstr ""
 
 #: templates/authentication/login.html:5
@@ -386,108 +1545,493 @@ msgid "Sign in"
 msgstr ""
 
 #: templates/authentication/login.html:6
-msgid "It's faster than saying &#34;Open Sesame&#34;"
+msgid "It's as fast as saying &#34;Open Sesame&#34;"
 msgstr ""
 
-#: templates/authentication/login.html:18
+#: templates/authentication/login.html:20
+#: templates/listings/get_listing.html:113
 msgid "Please fix the errors below"
 msgstr ""
 
-#: templates/authentication/login.html:28
-msgid "Email address:"
+#: templates/authentication/login.html:61
+msgid "Sign in – show me my stuff"
 msgstr ""
 
-#: templates/authentication/login.html:43
-msgid "Password:"
-msgstr ""
-
-#: templates/authentication/login.html:59
-msgid "Sign In - show me my stuff"
-msgstr ""
-
-#: templates/authentication/login.html:65
+#: templates/authentication/login.html:67
 msgid "Don&#39;t have an account"
 msgstr ""
 
-#: templates/authentication/login.html:66
+#: templates/authentication/login.html:68
 msgid "Place an ad</a> to create one"
+msgstr ""
+
+#: templates/authentication/login_denied.html:6
+msgid "Your account is either Blocked or Suspened"
 msgstr ""
 
 #: templates/authentication/logout.html:6
 msgid "You have been Logged Out!"
 msgstr ""
 
-#: templates/listings/listing_complete.html:5
-msgid "Yay! Mabrook! Your ad will go live soon"
+#: templates/cpanel/manage_workspace.html:7
+msgid "Cpanel Ad moderation."
 msgstr ""
 
-#: templates/listings/manage_listing.html:11
-msgid "Place an Ad ..."
+#: templates/cpanel/manage_workspace.html:11
+#: templates/listings/manage_inorganic_listing.html:11
+msgid "Make this awesome."
 msgstr ""
 
-#: templates/listings/manage_listing.html:12
-msgid "Make sure yourself!!"
+#: templates/cpanel/manage_workspace.html:33
+msgid "Existing Photos"
 msgstr ""
 
-#: templates/listings/manage_listing.html:34
-#: templates/listings/manage_listing.html:111
-msgid "Choose Category"
+#: templates/cpanel/manage_workspace.html:34
+msgid "These photos can be moderated in Cpanel"
 msgstr ""
 
-#: templates/listings/manage_listing.html:92
-#: templates/listings/manage_listing.html:404
-msgid "Quickly explain what you're advertising. Be descriptive yet concise"
+#: templates/cpanel/manage_workspace.html:50
+#, fuzzy
+msgid "User's Email Address"
+msgstr "Update here"
+
+#: templates/cpanel/manage_workspace.html:57
+msgid "Please remember to go back to Cpanel to approve this edit."
 msgstr ""
 
-#: templates/listings/manage_listing.html:119
-msgid "Show all"
+#: templates/emails/listings/listing_complete.txt:4
+msgid "Wo0t, welcome to dubizzle!"
 msgstr ""
 
-#: templates/listings/manage_listing.html:146
-#: templates/listings/manage_listing.html:163
-msgid "Category"
+#: templates/emails/listings/listing_complete.txt:6
+msgid "Congratulations! Your listing will go live soon."
 msgstr ""
 
-#: templates/listings/manage_listing.html:260
-msgid "Choose Neighbourhood"
+#: templates/emails/listings/listing_complete.txt:8
+#: templates/emails/listings/listing_created.txt:5
+#: templates/emails/listings/listing_updated.txt:5
+#: templates/emails/listings/reply_to_listing.txt:13
+msgid "You can view your ad at"
 msgstr ""
 
-#: templates/listings/manage_listing.html:315
-msgid "Email Address"
+#: templates/emails/listings/listing_created.txt:3
+msgid "Congratulations! Your listing is live now."
 msgstr ""
 
-#: templates/listings/manage_listing.html:327
+#: templates/emails/listings/listing_updated.txt:3
+msgid "The changes to your listings have been approved"
+msgstr ""
+
+#: templates/emails/listings/reply_to_listing.txt:3
+msgid "Some one is interested in the listing you posted on Dubizzle"
+msgstr ""
+
+#: templates/emails/listings/reply_to_listing.txt:10
+#: templates/listings/manage_inorganic_listing.html:22
+#: templates/listings/manage_listing.html:343
+#: templates/listings/manage_listing.html:355
 msgid "Email"
 msgstr ""
 
-#: templates/listings/manage_listing.html:348
-msgid "Confirm Email"
+#: templates/emails/listings/reply_to_listing.txt:11
+msgid "Message"
 msgstr ""
 
-#: templates/listings/manage_listing.html:363
-msgid "I'm new to dubizzle. I don't have a password"
+#: templates/listings/delete_listing.html:11
+msgid "Are you sure you want to Delete this listing?"
 msgstr ""
 
-#: templates/listings/manage_listing.html:366
+#: templates/listings/delete_listing.html:13
+msgid "Please click on confirm to delete this listing!"
+msgstr ""
+
+#: templates/listings/delete_listing.html:17
+msgid "Back to listing"
+msgstr ""
+
+#: templates/listings/delete_listing.html:22
+msgid "Confirm"
+msgstr ""
+
+#: templates/listings/get_listing.html:24
+msgid "Edit my ad"
+msgstr ""
+
+#: templates/listings/get_listing.html:25
+msgid "Report this ad"
+msgstr ""
+
+#: templates/listings/get_listing.html:26
+msgid "Delete ad"
+msgstr ""
+
+#: templates/listings/get_listing.html:34
+msgid ""
+"This ad has already been edited and is awaiting approval. You'll get an "
+"email once the changes are live."
+msgstr ""
+
+#: templates/listings/get_listing.html:60
+msgid "Show mobile number"
+msgstr ""
+
+#: templates/listings/get_listing.html:66
+msgid "Send email"
+msgstr ""
+
+#: templates/listings/get_listing.html:71
+msgid "Details"
+msgstr ""
+
+#: templates/listings/get_listing.html:89
+msgid "Call"
+msgstr ""
+
+#: templates/listings/get_listing.html:97
+msgid "or"
+msgstr ""
+
+#: templates/listings/get_listing.html:124
+msgid ""
+"Some scam warning of oia9021302138210 lines and shiiit that PL's have to "
+"provide ASAFP u know what i'm sayin dawg!"
+msgstr ""
+
+#: templates/listings/get_listing.html:134
+msgid "Your name is?"
+msgstr ""
+
+#: templates/listings/get_listing.html:150
+msgid "What's your email?"
+msgstr ""
+
+#: templates/listings/get_listing.html:166
+msgid "Your mobile number"
+msgstr ""
+
+#: templates/listings/get_listing.html:182
+msgid "What do you want to tell them?"
+msgstr ""
+
+#: templates/listings/get_listing.html:198
+msgid "Please enter the 4 letters as shown in the image below"
+msgstr ""
+
+#: templates/listings/get_listing.html:205
+msgid "Send my reply"
+msgstr ""
+
+#: templates/listings/get_listing.html:206
+msgid ""
+"By clicking on 'Send my reply' I agree to the dubizzle Terms and Conditions "
+"and the dubizzle Privacy Policy"
+msgstr ""
+
+#: templates/listings/get_listing.html:212
+msgid "Bravo!"
+msgstr ""
+
+#: templates/listings/get_listing.html:213
+msgid ""
+"You did it...you're one step closer to getting what you want. Never stop "
+"searching and you'll find more of what you want."
+msgstr ""
+
+#: templates/listings/get_listing.html:214
+msgid "Back to listings"
+msgstr ""
+
+#: templates/listings/listing_complete.html:6
+msgid "Hooray! Congratulations, your ad will go live very very soon."
+msgstr ""
+
+#: templates/listings/listing_complete.html:16
+msgid ""
+"ًRight now, we're going to quickly review your ad and make sure it's ready "
+"for dubizzle. <br/> Once it's up and live, we'll tell you the good news in "
+"an email."
+msgstr ""
+
+#: templates/listings/listing_complete.html:19
+msgid "Back to home page"
+msgstr ""
+
+#: templates/listings/listing_complete.html:21
+msgid "Place another ad"
+msgstr ""
+
+#: templates/listings/manage_inorganic_listing.html:7
+msgid "Inorganic Place an Ad."
+msgstr ""
+
+#: templates/listings/manage_listing.html:11
+msgid "Create a free ad in no time at all."
+msgstr ""
+
+#: templates/listings/manage_listing.html:15
+msgid "Then go party!"
+msgstr ""
+
+#: templates/listings/manage_listing.html:40
+#: templates/listings/manage_listing.html:128
+msgid "Select a category"
+msgstr ""
+
+#: templates/listings/manage_listing.html:81
+msgid "We're almost there...please review the points below."
+msgstr ""
+
+#: templates/listings/manage_listing.html:94
+msgid "Your ad title"
+msgstr ""
+
+#: templates/listings/manage_listing.html:109
+msgid ""
+"Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
+msgstr ""
+
+#: templates/listings/manage_listing.html:136
+msgid "Show all"
+msgstr ""
+
+#: templates/listings/manage_listing.html:165
+msgid "Change"
+msgstr ""
+
+#: templates/listings/manage_listing.html:171
+msgid "Category"
+msgstr ""
+
+#: templates/listings/manage_listing.html:183
+msgid "Add some photos"
+msgstr ""
+
+#: templates/listings/manage_listing.html:184
+msgid ""
+"Add original photos and get your ad featured on our home page (where "
+"everyone can see it)."
+msgstr ""
+
+#: templates/listings/manage_listing.html:188
+msgid ""
+"Ads with photos sell much better. Use up to 10 good quality photos. For job "
+"ads, please upload the company logo. Accepted formats: jpg, png, or gif."
+msgstr ""
+
+#: templates/listings/manage_listing.html:198
+#: templates/user_profiles/user_profile.html:127
+msgid "Delete"
+msgstr ""
+
+#: templates/listings/manage_listing.html:204
+msgid "Max number of photos is {{ max_photos }}"
+msgstr ""
+
+#: templates/listings/manage_listing.html:212
+msgid "Add another photo"
+msgstr ""
+
+#: templates/listings/manage_listing.html:242
+msgid ""
+"Increase the chance of your ad appearing in a search: <br/>- Answer "
+"questions your buyer may have (dimensions, functions, availability) <br/>- "
+"Highlight benefits and specific details (warranties, features, etc.) <br/"
+">For your safety, email addresses and HTML formatting are not allowed"
+msgstr ""
+
+#: templates/listings/manage_listing.html:257
+msgid "Choose your city"
+msgstr ""
+
+#: templates/listings/manage_listing.html:279
+msgid "Neighborhood"
+msgstr ""
+
+#: templates/listings/manage_listing.html:310
+msgid "Mobile Number"
+msgstr ""
+
+#: templates/listings/manage_listing.html:324
+msgid ""
+"We need mobile numbers to verify accounts and to detect scammers. Don't "
+"worry, you can choose not to show your mobile number in the ad (see option "
+"below)."
+msgstr ""
+
+#: templates/listings/manage_listing.html:375
+msgid "A valid email address ensures your ad will go live."
+msgstr ""
+
+#: templates/listings/manage_listing.html:384
+#, fuzzy
+msgid "Confirm email"
+msgstr "fsadffsdafdsafdas."
+
+#: templates/listings/manage_listing.html:399
+msgid "I'm new to dubizzle. I need a password."
+msgstr ""
+
+#: templates/listings/manage_listing.html:402
 msgid "I have a dubizzle password"
 msgstr ""
 
-#: templates/search/browse_widget.html:12
-msgid "All of Dubizzle"
+#: templates/listings/manage_listing.html:406
+msgid "Password (cAse SenSiTIvE)"
+msgstr ""
+
+#: templates/listings/manage_listing.html:420
+msgid ""
+"Make it safe and secure. Use a mix of numbers and letters, and don't use "
+"something obvious like your auntie's friend's cat - well، maybe that's OK."
+msgstr ""
+
+#: templates/listings/manage_listing.html:429
+msgid "Confirm password"
+msgstr ""
+
+#: templates/listings/manage_listing.html:451
+msgid ""
+"By posting your ad you are agreeing to the dubizzle Terms & Conditions and "
+"the dubizzle Privacy Policy"
+msgstr ""
+
+#: templates/listings/report_listing.html:66
+msgid "Reply"
+msgstr ""
+
+#: templates/public/home.html:18 templates/search/search_listings.html:18
+msgid "Load more"
+msgstr ""
+
+#: templates/public/landing.html:7
+msgid "Ahlan wa sahlan..."
+msgstr ""
+
+#: templates/search/browse_widget.html:19
+msgid "More options"
 msgstr ""
 
 #: templates/search/browse_widget.html:54
 msgid "Refine"
 msgstr ""
 
-#: templates/search/category_widget.html:65
+#: templates/search/category_widget.html:70
+#: templates/search/search_bar.html:11 templates/search/widget.html:66
 msgid "Go"
 msgstr ""
 
-#: templates/search/search_bar.html:15
+#: templates/search/search.html:19
+#, python-format
+msgid ""
+"\n"
+"                %(counter)s result found\n"
+"            "
+msgid_plural ""
+"\n"
+"                %(counter)s results found\n"
+"            "
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: templates/search/search_bar.html:16
 msgid "Show only arabic ads"
 msgstr ""
 
-#: templates/user_profiles/user_profile.html:6
-msgid "The user profile page will be displayed here!"
+#: templates/search/search_listings.html:7
+msgid "Load previous"
+msgstr ""
+
+#: templates/search/widget.html:71
+msgid "No results..."
+msgstr ""
+
+#: templates/shared/listings.html:36
+msgid ""
+"<p>Oh camel droppings - we couldn't find anything to match your search.</"
+"p><p>Try using different keywords or widening your seach and it should be "
+"more fruitful.</p>"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:11
+msgid "My stuff"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:15
+#, python-format
+msgid "<span>Not %(user.email)s? <a href=\"#\">Logout</a></span>"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:16
+msgid "Account settings"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:27
+#, python-format
+msgid ""
+"\n"
+"                You've got %(counter)s ad\n"
+"            "
+msgid_plural ""
+"\n"
+"                You've got %(counter)s ads\n"
+"            "
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: templates/user_profiles/user_profile.html:38
+msgid "All my ads"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:39
+#: templates/user_profiles/user_profile.html:45
+msgid "My pending ads"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:40
+#: templates/user_profiles/user_profile.html:96
+msgid "My live ads"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:52
+msgid "These ads are awaiting approval and will be live soon!"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:86
+#: templates/user_profiles/user_profile.html:142
+msgid ""
+"This page is emptier than the Sahara. Come on, let's fill it up by placing "
+"some awesome ads."
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:91
+msgid "Show all pending ads"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:126
+msgid "Edit"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:130
+msgid "Are you sure you want to delete this listing?"
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:135
+msgid "No keep it live."
+msgstr ""
+
+#: templates/user_profiles/user_profile.html:147
+msgid "Show all live ads"
+msgstr ""
+
+#: utils/meta_builder.py:92 utils/meta_builder.py:97
+#, python-format
+msgid "%(city)s, %(country)s"
 msgstr ""
